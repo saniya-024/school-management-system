@@ -3,12 +3,10 @@ import React from 'react'
 const LoginPage = () => {
   
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-100 to-gray-100 flex items-center justify-center p-5">
-      <div className="w-full max-w-6xl bg-white rounded-3xl overflow-hidden shadow-2xl grid md:grid-cols-2">
-
-        {/* Left Side */}
+    <div>
+  
         <div className="p-10 bg-blue-50">
-
+ 
           <h1 className="text-4xl font-bold text-blue-600">
             Edu<span className="text-gray-700">ook</span>
           </h1>
@@ -64,7 +62,7 @@ const LoginPage = () => {
 
         </div>
 
-        {/* Right Side */}
+    
         <div className="bg-blue-600 flex flex-col items-center justify-center text-white p-10">
 
           <h1 className="text-4xl font-bold">
@@ -84,9 +82,9 @@ const LoginPage = () => {
 
         </div>
 
-      </div>
     </div>
-  );
+  
+)
 }
       
   
