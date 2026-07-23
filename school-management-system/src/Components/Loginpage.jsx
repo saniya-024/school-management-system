@@ -7,11 +7,17 @@ const LoginPage = () => {
   return (
     <div>
   
-        <div className="p-10 bg-blue-500">
+        <div className="p-10 bg-blue-200">
+            <h1 className="text-5xl font-bold">
+  <span className="text-blue-600">E</span>
+  <span className="text-gray-900">du</span>
+  <span className="text-blue-600">oo</span>
+  <span className="text-gray-900">k</span>
+</h1>
  
-          <h1 className="text-4xl font-bold text-blue-600">
-            Edu<span className="text-gray-700">ook</span>
-          </h1>
+          {/* <h1 className="text-4xl font-bold text-blue-600">
+            E<span className="text-gray-700">du</span><span className="text-4xl font-bold text-blue-600">oo</span><span className= "text-gray-600">k</span>
+          </h1> */}
 
           <p className="text-gray-500 mt-2 text-sm">
             Please enter your credentials to access your dashboard.
