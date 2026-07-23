@@ -1,12 +1,13 @@
-import React from 'react'
-import LoginPage from './assets/components/LoginPage'
+
+import LoginPage from './Components/Loginpage'
 
 const App = () => {
   return (
     <div>
-    <LoginPage/>
+      <LoginPage/>
     </div>
   )
 }
 
 export default App
+
