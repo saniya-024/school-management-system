@@ -1,31 +1,26 @@
 import React from 'react'
 import { HiOutlineMail } from "react-icons/hi";
 import { FiLock, FiEye } from "react-icons/fi";
-
+import image from "../assets/image/logo.png"
 const LoginPage = () => {
   
   return (
     <div>
   
         <div className="p-10 bg-blue-200">
-            <h1 className="text-5xl font-bold">
-  <span className="text-blue-600">E</span>
-  <span className="text-gray-900">du</span>
-  <span className="text-blue-600">oo</span>
-  <span className="text-gray-900">k</span>
-</h1>
- 
-          {/* <h1 className="text-4xl font-bold text-blue-600">
-            E<span className="text-gray-700">du</span><span className="text-4xl font-bold text-blue-600">oo</span><span className= "text-gray-600">k</span>
-          </h1> */}
+            <div className="">
+          <img src={image} alt="" />
+ </div>
+          
 
-          <p className="text-gray-500 mt-2 text-sm">
+          <p className="text-gray-500 mt-4 text-m font-semibold">
             Please enter your credentials to access your dashboard.
           </p>
 
-          <h2 className="text-3xl font-semibold mt-8 text-blue-600">
-            Welcome Back!
-          </h2>
+          <h2 className="text-3xl font-bold mt-8 flex gap-2">
+           <span className="text-blue-600">Welcome</span><span className="text-3xl text-gray-700">Back!</span>
+            </h2>
+          
 
         
           <div className="relative mt-8">
@@ -49,8 +44,8 @@ const LoginPage = () => {
           </div>
 
         
-          <div className="flex items-center justify-between mt-5">
-            <label className="flex items-center gap-2 text-sm">
+          <div className="mt-5">
+            <label className=" flex items-center gap-2 text-sm">
               <input type="checkbox" />
               Remember me
             </label>
