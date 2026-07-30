@@ -5,7 +5,7 @@ import image from "../assets/image/logo.png"
 const LoginPage = () => {
   
   return (
-    <div className="flex h-screen">
+    <div className="flex">
   
         <div className="w-1/2 p-10 bg-blue-200">
             <div className="">
@@ -64,17 +64,18 @@ const LoginPage = () => {
           </p>
 
         </div>
-<div className="w-1/2 h-full">
-    
-        <div className="bg-blue-600  h-screen flex flex-col items-center justify-center text-white p-10">
 
-          <h1 className="text-4xl font-bold">
+    
+        <div className="bg-blue-600  h-screen w-1/2 flex flex-col items-center text-white pt-12">
+
+          <h1 className="text-4xl font-semibold">
             Continue Managing!
           </h1>
 
-          <p className="text-center mt-4 max-w-sm leading-7">
+          <p className="text-center text-m mt-4 max-w-sm leading-7">
             Pick up right where you left off. Sign in to the world's
-            favorite fast, easy and secure school management platform.
+        
+            favorite fast, easy and 100% free school <br></br>management platform.
           </p>
 
           <img
@@ -86,7 +87,7 @@ const LoginPage = () => {
 
         </div>
 
-    </div>
+    
   
 )
 }
