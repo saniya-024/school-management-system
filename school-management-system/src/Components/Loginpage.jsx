@@ -2,6 +2,7 @@ import React from 'react'
 import { HiOutlineMail } from "react-icons/hi";
 import { FiLock, FiEye } from "react-icons/fi";
 import image from "../assets/image/logo.png"
+import student from "../assets/image/student.png"
 const LoginPage = () => {
   
   return (
@@ -28,7 +29,7 @@ const LoginPage = () => {
             <input
               type="email"
               placeholder="mail@example.com"
-              className="w-full pl-12 pr-4 py-4 rounded-xl border outline-none focus:border-blue-500"
+              className=" bg-white w-full pl-12 pr-4 py-4 rounded-xl border outline-none focus:border-blue-500"
             />
           </div>
 
@@ -66,22 +67,21 @@ const LoginPage = () => {
         </div>
 
     
-        <div className="bg-blue-600  h-screen w-1/2 flex flex-col items-center text-white pt-12">
+        <div className="bg-[#397AFC] h-screen w-1/2 flex flex-col text-white pt-12">
 
-          <h1 className="text-4xl font-semibold">
+          <h1 className="text-4xl font-semibold pl-45">
             Continue Managing!
           </h1>
 
-          <p className="text-center text-m mt-4 max-w-sm leading-7">
-            Pick up right where you left off. Sign in to the world's
-        
-            favorite fast, easy and 100% free school <br></br>management platform.
+          <p className="text-center text-lg mt-6 leading-7 pr-20 font-lightest text-white-100 pl-3">
+            Pick up right where you left off. Sign in to the world's<br></br>
+        favorite fast, easy and 100% free school <br></br>management platform.
           </p>
 
           <img
-            src="/student.png"
+            src={student}
             alt="Student"
-            className="w-80 mt-10"
+            className="w- h-110 mt-10 pl-20 pr-20"
           />
           </div>
 
