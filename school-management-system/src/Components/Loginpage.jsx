@@ -66,7 +66,7 @@ const LoginPage = () => {
         </div>
 <div className="w-1/2 h-full">
     
-        <div className="bg-blue-600 flex flex-col items-center justify-center text-white p-10">
+        <div className="bg-blue-600  h-screen flex flex-col items-center justify-center text-white p-10">
 
           <h1 className="text-4xl font-bold">
             Continue Managing!
