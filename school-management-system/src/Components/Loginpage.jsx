@@ -29,7 +29,7 @@ const LoginPage = () => {
             <input
               type="email"
               placeholder="mail@example.com"
-              className=" bg-white w-full pl-12 pr-4 py-4 rounded-xl border outline-none focus:border-blue-500"
+              className=" bg-white w-full pl-12 pr-4 py-4 rounded-xl border-none outline-none"
             />
           </div>
 
@@ -39,7 +39,7 @@ const LoginPage = () => {
             <input
               type="password"
               placeholder="Password"
-              className="w-full pl-12 pr-12 py-4 rounded-xl border outline-none focus:border-blue-500"
+              className=" bg-white w-full pl-12 pr-12 py-4 rounded-xl border-none outline-none"
             />
             <FiEye className="absolute right-4 top-4 text-gray-400 cursor-pointer text-xl" />
           </div>
