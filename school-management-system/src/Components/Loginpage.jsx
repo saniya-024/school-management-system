@@ -5,9 +5,9 @@ import image from "../assets/image/logo.png"
 const LoginPage = () => {
   
   return (
-    <div>
+    <div className="flex h-screen">
   
-        <div className="p-10 bg-blue-200">
+        <div className="w-1/2 p-10 bg-blue-200">
             <div className="">
           <img src={image} alt="" />
  </div>
@@ -64,7 +64,7 @@ const LoginPage = () => {
           </p>
 
         </div>
-
+<div className="w-1/2 h-full">
     
         <div className="bg-blue-600 flex flex-col items-center justify-center text-white p-10">
 
@@ -82,6 +82,7 @@ const LoginPage = () => {
             alt="Student"
             className="w-80 mt-10"
           />
+          </div>
 
         </div>
 
