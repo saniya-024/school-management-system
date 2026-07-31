@@ -6,11 +6,11 @@ import student from "../assets/image/student.png"
 const LoginPage = () => {
   
   return (
-    <div className="flex">
+    <div className="flex flex-col lg:flex-row min-h-screen">
   
-        <div className="w-1/2 p-10 bg-blue-200">
+        <div className="w-full lg:w-1/2 p-6 md:p-8 lg:p-10 bg-blue-200">
             <div className="">
-          <img src={image} alt="" />
+          <img src={image} alt="Logo" className="w-40 md:w-48" />
  </div>
           
 
@@ -18,8 +18,8 @@ const LoginPage = () => {
             Please enter your credentials to access your dashboard.
           </p>
 
-          <h2 className="text-3xl font-bold mt-8 flex gap-2">
-           <span className="text-blue-600">Welcome</span><span className="text-3xl text-gray-700">Back!</span>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-8 flex gap-2">
+           <span className="text-blue-600">Welcome</span><span className=" text-gray-700">Back!</span>
             </h2>
           
 
@@ -67,7 +67,7 @@ const LoginPage = () => {
         </div>
 
     
-        <div className="bg-[#397AFC] h-screen w-1/2 flex flex-col text-white pt-12">
+        <div className="bg-[#397AFC] h-screen w-full lg:w-1/2 flex flex-col text-white pt-12">
 
           <h1 className="text-4xl font-semibold pl-45">
             Continue Managing!
