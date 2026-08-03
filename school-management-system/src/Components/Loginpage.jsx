@@ -70,7 +70,7 @@ const LoginPage = () => {
     
         <div className="bg-[#397AFC] h-screen w-full lg:w-1/2 flex flex-col text-white pt-12">
 
-          <h1 className="text-4xl font-semibold pl-45">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold lg:pl-45">
             Continue Managing!
           </h1>
 
