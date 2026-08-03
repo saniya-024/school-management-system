@@ -68,9 +68,9 @@ const LoginPage = () => {
         </div>
 
     
-        <div className="bg-[#397AFC] h-screen w-full lg:w-1/2 flex flex-col text-white pt-12">
+        <div className="bg-[#397AFC] min-h-screen w-full lg:w-1/2 flex flex-col text-white pt-12">
 
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-center px-4 py-6 sm:px-6 sm:py-8 lg:px-10 lg:py-10">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-center px-4 py-6 sm:px-6 sm:py-8 lg:px-10">
             Continue Managing!
           </h1>
 
@@ -82,7 +82,7 @@ const LoginPage = () => {
           <img
             src={student}
             alt="Student"
-            className="w- h-110 mt-10 pl-20 pr-20"
+            className="w- h-100 mt-10 pl-20 pr-20"
           />
           </div>
 
