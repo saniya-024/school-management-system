@@ -70,11 +70,11 @@ const LoginPage = () => {
     
         <div className="bg-[#397AFC] h-screen w-full lg:w-1/2 flex flex-col text-white pt-12">
 
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold lg:pl-45">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-center px-4 py-6 sm:px-6 sm:py-8 lg:px-10 lg:py-10">
             Continue Managing!
           </h1>
 
-          <p className="text-center text-lg mt-6 leading-7 pr-20 font-lightest text-white-100 pl-3">
+          <p className="text-center text-sm md:text-base lg:text-lg mt-6 leading-7 font-lightest text-white-100 px-6 lg:px-20">
             Pick up right where you left off. Sign in to the world's<br></br>
         favorite fast, easy and 100% free school <br></br>management platform.
           </p>
