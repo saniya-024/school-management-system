@@ -6,7 +6,8 @@ import student from "../assets/image/student.png"
 const LoginPage = () => {
   
   return (
-    <div className="flex flex-col lg:flex-row min-h-screen">
+    <div className="flex flex-col
+     lg:flex-row min-h-screen">
   
         <div className="w-full lg:w-1/2 p-6 md:p-8 lg:p-10 bg-blue-200">
             <div className="">
@@ -25,7 +26,7 @@ const LoginPage = () => {
 
         
           <div className="relative mt-8">
-            <HiOutlineMail className="absolute left-4 top-4 text-gray-400 text-xl" />
+            <HiOutlineMail className="absolute left-4 top-4, text-gray-400 text-xl"/>
             <input
               type="email"
               placeholder="mail@example.com"
