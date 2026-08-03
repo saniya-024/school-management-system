@@ -20,7 +20,7 @@ const LoginPage = () => {
           </p>
 
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-8 flex gap-2">
-           <span className="text-blue-600">Welcome</span><span className="text-3xl text-gray-700">Back!</span>
+           <span className="text-blue-600">Welcome</span><span className=" text-gray-700">Back!</span>
             </h2>
           
 
